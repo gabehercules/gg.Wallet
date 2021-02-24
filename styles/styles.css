@@ -1,0 +1,93 @@
+/* Global ==========================> */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: min(90vw, 800px);
+    margin: auto;
+
+}
+
+/* Global titles =========================> */
+h2 {
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+
+    color: #fafafa;
+}
+
+h3 {
+    color: #bdbdbd;
+    font-weight: 500;
+}
+
+a {
+    color: #181818;
+    text-decoration: none;
+}
+
+/* Header ==========================> */
+
+header {
+    background-color: #e20749;
+    padding: 2rem 6rem 10rem;
+    margin: 0 auto;
+}
+
+header h1 {
+    
+}
+
+/* balance ==========================> */
+
+#balance {
+    margin-top: -6.5rem;
+}
+
+#balance h2 {
+    color: #fafafa;
+    margin-top: 0;
+}
+
+#balance h3 {
+    font-size: 1rem;
+}
+
+#balance p {
+    margin-top: 1rem;
+    color: #fafaff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* Cards ==========================> */
+
+.card-balance {
+    background-color: #181818;
+    min-height: 110px;
+    border-radius: 7px;
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+    border: 2px solid #070707;
+}
+
+.card-balance.card-total {
+    background-color: #000;
+    border-color: #e20749;
+}
+
+
+/* Footer ==========================> */
+
+footer {
+    text-align: center;
+}
